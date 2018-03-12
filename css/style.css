@@ -1,0 +1,365 @@
+.active{
+  background-color:rgb(255, 187, 14);
+}
+
+.bg-dark{
+  background-color:black !important;
+}
+
+
+/* Navbar styling */
+.navbar{
+  background-color:black !important;
+  font-weight: 500;
+  padding-top: 25px;
+  padding-bottom:25px;
+}
+
+#navbarLogo{
+  padding-right: 18px;
+}
+
+.navbar-brand{
+  font-size: 32px;
+}
+
+.navbarLinks{
+  font-size:18px;
+  color: white !important;
+  padding-right:25px !important;
+}
+
+#searchBar{
+  padding-top:3px;
+}
+
+/*Search bar inactive styling*/
+.navbar input[type=text]{
+  background: rgb(102, 101, 101);
+  color: rgb(255, 255, 255);
+  border:0;
+  font-family: Roboto, sans-serif;
+  font-size:18px;
+  font-weight: 300 !important;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:10px;
+}
+
+.navbar input[type=text]::placeholder{
+  color: rgb(218, 218, 218);
+  font-family: Roboto, sans-serif;
+  font-size:18px;
+  font-weight: 300 !important;
+}
+
+/*Search bar autofill suggestion styling*/
+.autocomplete-suggestions {
+  border: 1px solid #999; 
+  background: white; 
+  font-family: Roboto, sans-serif;
+  color:rgb(150, 150, 150);
+  overflow: auto; 
+  cursor:default;
+}
+
+.autocomplete-suggestion { 
+  padding: 5px 5px; 
+  font-size: 1.2em; 
+  white-space: nowrap; 
+  overflow: hidden; 
+}
+
+.autocomplete-selected { 
+  background: #f0f0f0; 
+}
+
+.autocomplete-suggestions strong { 
+  font-weight: normal; 
+  color: rgb(39, 39, 39); 
+}
+/* END Navbar styling*/
+
+
+/* Carousel styling */
+.carousel-item {
+  height: 80vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:black !important;
+}
+
+.carouselCaption{
+  padding-top: 10px;
+  padding-bottom: 60px;
+  position: absolute;
+  bottom: 12%;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.623);
+  width:100% !important;  
+}
+
+.carouselCaption h3{
+  font-size:45px;
+}
+
+.carouselCaption p{
+  font-size:24px;
+  font-weight:300;
+}
+
+.carouselCaptionMobile{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 15%;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.623);
+  width:100% !important;  
+}
+
+.carouselCaptionMobile h3{
+  font-size:26px;
+}
+
+.carouselCaptionMobile p{
+  font-size:18px;
+  font-weight:300;
+}
+
+.carouselButton{
+  background-color:rgb(224, 164, 12);
+  color:black;
+  font-weight:500;
+  font-size:19px;
+  letter-spacing: 0.15px;
+  border:0;
+  border-radius: 0 !important;
+  padding-left:35px;
+  padding-right:35px;
+}
+
+.carouselButton:hover{
+  background-color:rgb(255, 187, 14);
+  color:black;
+  font-weight:500;
+  font-size:19px;
+  letter-spacing: 0.15px;
+  border:0;
+  border-radius: 0 !important;
+  padding-left:35px;
+  padding-right:35px;
+}
+
+.carouselButton:active{
+  background-color:rgb(255, 187, 14) !important;
+  color:black !important;
+}
+
+.carousel-indicators{
+  bottom:20px !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width:32px !important;
+  height:32px !important;
+}
+
+.carousel-indicators li {
+  height:18px;
+  width:18px;
+  border-radius: 50% !important;
+  background-color:transparent !important;
+  border: 2px solid white;
+}
+
+.carousel-indicators .active{
+  height:18px;
+  width:18px;
+  border-radius: 50% !important;
+  background-color:white !important;
+  border: 2px solid white;
+}
+/* END Carousel styling */
+
+
+/* Services section styling*/
+.infoRows h4{
+  text-align:center;
+}
+
+.infoRows p{
+  color: rgb(126, 126, 126);
+  font-weight:100;
+  padding-bottom:40px;
+}
+
+.yellowHr{
+  border-width:7px;
+  width: 130px;
+  background-color:rgb(255, 206, 72);
+}
+/*END Services section styling*/
+
+
+/* Company Values section styling */
+/* Desktop/tablet styling */
+.btn-group-vertical{
+  background-color:rgb(156, 156, 156);
+  border-radius:0 !important;
+  font-weight:600;
+  color:black;
+  padding:40px,40px,40px,40px;
+  width:100%;
+}
+
+.btn-group-vertical.active{
+  background-color:rgb(255, 187, 14) !important;
+  border-radius:0 !important;
+  font-weight:600;
+  color:black !important;
+}
+
+#horizontalTabs {
+  float: left;
+  width: 30%;
+  height: 300px;
+}
+
+#horizontalTabs button {
+  display: block;
+  background-color:rgb(226, 226, 226);
+  color: black;
+  font-weight:600;
+  font-family: Roboto, sans-serif;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  margin-bottom:5px;
+}
+
+#horizontalTabs button:hover {
+  background-color:rgb(243, 243, 243);
+}
+
+#horizontalTabs button.active {
+  background-color:rgb(255, 187, 14);
+}
+
+#efficiency, #sustainability, #doingGood {
+  float: left;
+  padding: 12px 12px;
+  border: 5px solid rgb(255, 187, 14);
+  border-radius:0px 4px 4px 4px;
+  width: 70%;
+  height: 330px;
+  font-family: Roboto, sans-serif;
+  color: rgb(126, 126, 126);
+  font-size:14px;
+  word-wrap: break-word;
+}
+
+/* Mobile phone styling */
+#mobileEfficiency, #mobileSustainability, #mobileDoingGood {
+  border: 5px solid rgb(255, 187, 14);
+  border-radius:0px 4px 4px 4px;
+  font-family: Roboto, sans-serif;
+  color: rgb(126, 126, 126);
+  font-size:14px;
+  padding:5px;
+}
+
+#mobileTabs button {
+  background-color:rgb(226, 226, 226);
+  color: black;
+  font-weight:600;
+  font-family: Roboto, sans-serif;
+  border: none;
+  outline: none;
+  text-align: left;
+  transition: 0.3s;
+  font-size: 16px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+#mobileTabs button:hover {
+  background-color:rgb(243, 243, 243);
+}
+
+#mobileTabs button.active {
+  background-color:rgb(255, 187, 14);
+}
+/* END Company Values section styling */
+
+
+/* Footer styling */
+footer{
+  border-top:5px solid  rgb(126, 126, 126) !important;
+}
+
+footer h6, a{
+  font-size:13px;
+  padding-top:15px;
+  color:white !important;
+  font-family:Roboto, sans-serif;
+}
+
+footer p{
+  font-size:13px;
+  color:white;
+  font-family:Roboto, sans-serif;
+  padding-top:50px;
+}
+
+footer a:hover{
+  color:rgb(255, 187, 14) !important;
+}
+
+footer .copyright{
+  font-family:Roboto, sans-serif;
+  color:rgb(255, 187, 14);
+  font-size:20px;
+}
+/* END footer styling */
+
+
+/* Modal styling */
+.modal-title{
+  text-transform: uppercase !important;
+  font-size:28px !important;
+}
+
+.modal-header{
+  border-color:white;
+  padding-bottom:5px;
+}
+
+.modal-body{
+  padding-bottom:50px; 
+}
+
+#cityModalTitle{
+  padding-bottom:15px;
+}
+
+iframe {
+  margin: 0 auto;
+  display:block;
+  box-shadow: 1px 1px 1px rgb(196, 196, 196); 
+}
+/* END modal styling */
